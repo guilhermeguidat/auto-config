@@ -42,4 +42,4 @@ Este script automatiza a configuração de máquinas para a emissão de certific
 ## Observações
 
 - O script pode demorar alguns minutos para ser concluído, dependendo das opções selecionadas e da velocidade do sistema.
-- **Permissões de Administrador**: Verifique se o executável foi iniciado com permissões administrativas para garantir que todas as tarefas possam ser concluídas corretamente.
+- Verifique se o executável foi iniciado com permissões administrativas para garantir que todas as tarefas possam ser concluídas corretamente.
