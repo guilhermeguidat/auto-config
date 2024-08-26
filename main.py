@@ -6,6 +6,7 @@ import shutil
 import winreg as reg
 import time
 
+#import de arquivos
 import bitlocker
 import instalarProgramas
 import criarUsuarios
