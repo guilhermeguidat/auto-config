@@ -35,7 +35,7 @@ Este script automatiza a configuração de máquinas para a emissão de certific
    - **Usuários**: Crie os usuários necessários.
    - **Gpedit**: Aplique as configurações de políticas de grupo.
    - **Configurar Data e Hora**: Ajuste a configuração de data e hora.
-   - **Capturas de Tela**: Capture screenshots das atividades.
+   - **Capturas de Tela**: Capture screenshots das informações da máquina.
 
 5. **Clique em "Executar"** para iniciar o processo de configuração.
 
