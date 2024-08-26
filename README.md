@@ -22,7 +22,7 @@ Este script automatiza a configuração de máquinas para a emissão de certific
    - [Baixar o Executável](https://drive.google.com/file/d/1dPPmbjyun4TyzuZ02CijHM_ok9SyBwUG/view?usp=sharing)
 
 2. **Execute o Executável**:
-   - Clique duas vezes no arquivo `.exe` baixado para iniciar a interface gráfica.
+   - Clique duas vezes no arquivo `.exe` baixado para iniciar a interface.
 
 3. **Preencha as Informações**:
    - **Nome do AGR**: Informe o nome do AGR.
