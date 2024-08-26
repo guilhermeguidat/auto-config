@@ -1,6 +1,8 @@
 import pyautogui
 import time
 import subprocess
+import tkinter as tk
+from tkinter import messagebox
 
 def open_control_panel():
     # Abre o Painel de Controle para configuração de data e hora
@@ -55,3 +57,9 @@ def configure_time_server(server):
     time.sleep(1.0)  # Aguarda a janela fechar
 
     print(f"Servidor de tempo configurado para: {server}")
+    
+def executar_configuracao_data_hora():
+    root = tk.Tk()
+    root.withdraw()  # Ocultar a janela principal
+    messagebox.showinfo("Aviso", "Você está prestes a configurar o servidor de data e hora. Por favor, não mexa na máquina até que o processo esteja concluído.")
+    root.destroy()  # Fechar a janela oculta

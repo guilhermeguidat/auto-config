@@ -1,5 +1,5 @@
-import subprocess
-import os
+import os  
+import subprocess  
 
 def install_program(executable, silent_args):
     try:
@@ -9,15 +9,12 @@ def install_program(executable, silent_args):
         if not os.path.isfile(executable_path):
             print(f"Erro: {executable_path} não encontrado.")
             return
-        print(f"Instalando {executable}...")
-        result = subprocess.run([executable_path] + silent_args, check=True)
-        if result.returncode == 0:
-            print(f"{executable} instalado com sucesso.")
-        else:
-            print(f"Falha na instalação de {executable}.")
+        print(f"Iniciando a instalação de {executable}...")
+        subprocess.run([executable_path] + silent_args, check=True)
+        print(f"{executable} instalado com sucesso.")
     except subprocess.CalledProcessError as e:
-        print(f"A instalação de {executable} falhou: {e}")
-
+        print(f"Falha na instalação de {executable}:\n{e}")
+        
 def install_programs():
     programs = {
         "AWP.exe": ["/silent"],
