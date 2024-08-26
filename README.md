@@ -19,7 +19,7 @@ Este script automatiza a configuração de máquinas para a emissão de certific
 ## Instalação e Uso
 
 1. **Baixe o Executável**:
-   - [Baixar o Executável](https://drive.google.com/file/d/1dPPmbjyun4TyzuZ02CijHM_ok9SyBwUG/view?usp=sharing)
+   - [Baixar o Executável](https://drive.google.com/file/d/1oa7Grg5UuT4E37WYn3SjhOirnG-jGr0-/view?usp=sharing)
 
 2. **Execute o Executável**:
    - Clique duas vezes no arquivo `.exe` baixado para iniciar a interface.
