@@ -33,7 +33,7 @@ def execute_tasks(nome_agr, nome_ar, senha_pc_admin, run_bitlocker, run_install,
     if run_users:
         usuario_agr = f"AGR-{nome_agr}"
         senha_agr = "AGR12345"
-        senha_admin = admin_passwords.get(senha_pc_admin, "ARcm@2050")  # Senha padrão se não encontrada
+        senha_admin = senha_pc_admin
         criarUsuarios.criar_usuario(usuario_agr, senha_agr, "Usuarios")
         criarUsuarios.criar_usuario("PC_Admin", senha_admin, "Administradores")
         
