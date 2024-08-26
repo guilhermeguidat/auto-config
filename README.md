@@ -14,7 +14,7 @@ Este script automatiza a configuração de máquinas para a emissão de certific
 ## Requisitos
 
 - **Windows**: O script foi desenvolvido para funcionar em sistemas operacionais Windows.
-- **Permissões de Administrador**: O script pode exigir permissões administrativas para alterar configurações do sistema e instalar programas.
+- **Permissões de Administrador**: O script precisa de permissões administrativas para alterar configurações do sistema e instalar programas.
 
 ## Instalação e Uso
 
