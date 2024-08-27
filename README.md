@@ -1,6 +1,6 @@
 # Automação na Configuração de Máquinas para Emissão de Certificados
 
-Este script automatiza a configuração de máquinas para a emissão de certificados, realizando uma série de tarefas essenciais para garantir que a máquina esteja configurada corretamente. Ele é distribuído como um executável, o que significa que não é necessário ter o Python instalado para executá-lo.
+Este programa automatiza a configuração de máquinas para a emissão de certificados, realizando uma série de tarefas essenciais para garantir que a máquina esteja configurada corretamente. Ele é distribuído como um executável, o que significa que não é necessário ter o Python instalado para executá-lo.
 
 ## Funcionalidades
 
